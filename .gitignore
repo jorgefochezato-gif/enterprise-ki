@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data (do not commit user uploads or vectorstore)
+data/uploads/
+data/vectorstore/
+data/document_metadata.json
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
